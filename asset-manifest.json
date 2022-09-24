@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/chat-me/static/js/main.0c9b029f.js",
+    "static/js/787.6f726199.chunk.js": "/chat-me/static/js/787.6f726199.chunk.js",
+    "static/media/darkbackground.jpeg": "/chat-me/static/media/darkbackground.2c15459048d7bbcf737d.jpeg",
+    "static/media/logo.svg": "/chat-me/static/media/logo.5a8d25a02c7c8422a8369600394ba020.svg",
+    "static/media/whitebackground.jpeg": "/chat-me/static/media/whitebackground.7e0140941162f53cf956.jpeg",
+    "static/media/pop.mp3": "/chat-me/static/media/pop.e2e956cec8e665fdac87.mp3",
+    "static/media/education.svg": "/chat-me/static/media/education.d7a9ed2e1e1d6bd5161575c97e4bf3b6.svg",
+    "static/media/sports.svg": "/chat-me/static/media/sports.8471b3907aa55e8ea620ebf928f133b7.svg",
+    "static/media/entertainment.svg": "/chat-me/static/media/entertainment.be603e9d7f3cdbe684dc6fd17e43fe43.svg",
+    "static/media/boy.png": "/chat-me/static/media/boy.18450dd57d448ee628e6.png",
+    "static/media/politics.svg": "/chat-me/static/media/politics.88bc57fe89dcaacad9ebd368c11121ca.svg",
+    "static/media/technology.svg": "/chat-me/static/media/technology.295b20b13555beb7dbfa482c46d6a665.svg",
+    "static/media/group.svg": "/chat-me/static/media/group.f787396d5670937ab20d3eb455ccb92c.svg",
+    "index.html": "/chat-me/index.html",
+    "main.0c9b029f.js.map": "/chat-me/static/js/main.0c9b029f.js.map",
+    "787.6f726199.chunk.js.map": "/chat-me/static/js/787.6f726199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0c9b029f.js"
+  ]
+}
