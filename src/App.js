@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useContext, useEffect } from "react";
+import {useSelector, useDispatch} from "react-redux"
+import GlobalStyles from "./components/styled/Global";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import { Theme } from "./components/styled/Theme";
+import { themeActions } from "./redux/ThemeSlice";
+
+import { Routes, Route } from "react-router-dom";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
+  const dispatch = useDispatch();
+const isUser = useSelector((state)=>state.auth.authState)
+
+ 
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <GlobalStyles />
+
+        <Routes>
+          <Route
+            exact
+            path="/*"
+            element={
+              <ProtectedRoute auth={isUser}>
+                <Home />
+              </ProtectedRoute>
+            }
+          ></Route>
+          <Route exact path="/login" element={<Login />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 
