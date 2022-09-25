@@ -3,6 +3,6 @@ import { Container } from './styled/Container'
 
 export default function Empty() {
   return (
-    <Container margin="2rem auto" width="fit-content">No Conversation yet</Container>
+    <Container position="absolute" top="12vh" left="35%" width="fit-content">No Conversation yet</Container>
   )
 }
